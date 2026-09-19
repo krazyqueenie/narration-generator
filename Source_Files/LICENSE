@@ -1,0 +1,63 @@
+Pixel’N’Code Factory Narration Tool
+Source-Available License
+
+Copyright © 2026 Pixel’N’Code Factory
+
+Permission is granted to view, inspect, study, run, and modify the original
+source code created specifically for this project.
+
+You may also build or package the source code into an executable for your
+own personal, educational, testing, or development use.
+
+You may not, without prior written permission from the copyright holder:
+
+- Sell, monetize, or commercially redistribute this project's original
+  source code.
+
+- Sell, monetize, or commercially redistribute a modified version
+  substantially based on this project's original source code.
+
+- Package this project, or a substantially modified version of it, into an
+  executable or other product for sale through stores, marketplaces,
+  download sites, subscription services, or other commercial platforms.
+
+- Publicly republish, redistribute, re-upload, or mirror this project, or a
+  substantially modified version of it, while presenting it as your own
+  original work.
+
+- Create a public repository containing this project, or a substantially
+  modified version of it, while claiming or implying that the project is
+  your own original creation.
+
+- Remove, alter, or misrepresent the original copyright, attribution, or
+  licensing information.
+
+- Use the Pixel’N’Code Factory name, branding, logos, or trademarks in a way
+  that suggests an altered or redistributed version is an official
+  Pixel’N’Code Factory release.
+
+This license applies only to the original code, interface, scripts,
+documentation, project structure, and other original material created
+specifically for this project.
+
+This license does NOT claim ownership of Python, Microsoft Windows,
+Microsoft voices, Microsoft speech technology, text-to-speech engines,
+system APIs, third-party Python packages, libraries, frameworks, or any
+other third-party software or technology used by or accessed through this
+project.
+
+All third-party software, technologies, voices, trademarks, services, and
+other materials remain the property of their respective owners and are
+subject to their own licenses, usage terms, and restrictions.
+
+This project is intended to provide a free interface and bridge for
+accessing supported text-to-speech functionality. Nothing in this license
+grants permission to commercially exploit third-party voices, speech
+technology, or other third-party components.
+
+This software is provided "as is", without warranty of any kind, express or
+implied. The copyright holder shall not be liable for any damages, losses,
+or claims resulting from the use, modification, packaging, or operation of
+this software.
+
+For permissions beyond the terms stated above, contact the copyright holder.
