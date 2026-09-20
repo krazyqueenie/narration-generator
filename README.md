@@ -56,6 +56,41 @@ A sincere thank you to the developers, maintainers, contributors, and communitie
 
 The available voices and supporting technologies make it possible to create useful narration for educational videos, explainers, documentaries, technology topics, science, space, mystery content, and many other creative projects.
 
+## Tested Performance
+
+The Narration Generator does not impose a fixed text-length limit of its own.
+
+Practical limits and generation times may vary depending on your computer, available system resources, internet connection, selected voice and speed, and the underlying text-to-speech service.
+
+### Test System
+
+The application was successfully tested on:
+
+- Intel Core i7-1255U
+- 10 cores / 12 threads
+- 16 GB RAM
+- NVMe SSD
+- Windows
+
+### Long-Form Test
+
+A test script containing approximately **18,644 characters** was generated using:
+
+- Brian — US male voice
+- Normal speed
+
+The resulting narration was approximately **21 minutes and 34 seconds long** and took about **5 minutes to generate**.
+
+This was an informal real-world test rather than a controlled benchmark. Faster or slower results may occur on different systems or network connections.
+
+## Practical Limitations
+
+Very long scripts may take several minutes to generate.
+
+An active internet connection is required because voice generation depends on the supported online text-to-speech service.
+
+The application itself does not intentionally restrict narration length, but extremely large generations may ultimately be limited by available system resources, network conditions, or the underlying speech service.
+
 Thank you to everyone who created, documented, maintained, and improved the technologies this project depends on. 💜
 
 ## License
