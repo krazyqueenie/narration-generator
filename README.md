@@ -1,4 +1,4 @@
-# 🎙️ Narration Generator
+# 🎙️ Narration Generator (Text To Speech/TTS)
 
 A simple, portable Windows narration generator built for creators, developers, educators, and anyone who needs clean voice narration without a complicated workflow.
 
