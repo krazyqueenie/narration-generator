@@ -1,75 +1,164 @@
 # 🎙️ Narration Generator
 
-A minimalist, high-velocity, and completely portable Windows narration utility built for creators, developers, and educational video producers. Input text, select a regional voice, and instantly generate, preview, and download your audio tracks as compressed `.mp3` files with zero platform subscription fees or arbitrary character limits.
+[svg](https://github.com/krazyqueenie/narration-generator#%EF%B8%8F-narration-generator)
+
+A simple, portable Windows narration generator built for creators, developers, educators, and anyone who needs clean voice narration without a complicated workflow.
+
+Paste your text, select a language, regional voice, and speed, then generate, preview, and save your narration as an `.mp3` file.
+
+No account or subscription is required to use the application.
 
 ---
 
 ## ⚡ Distribution Channels & Architecture
 
-To maximize accessibility while maintaining open-source integrity, this utility is distributed through two distinct channels:
+[svg](https://github.com/krazyqueenie/narration-generator#-distribution-channels--architecture)
 
-### 🚀 1. Standalone Production Binary (.exe)
-* **Zero-Install Deployment:** Download the pre-compiled executable directly from the repository. 
-* **Zero Dependencies:** No local Python installation, runtime environment management, or external package fetching is required. It is completely plug-and-play.
+The Narration Generator is provided in two forms: a ready-to-use Windows executable and a source-available developer version.
 
-### 📂 2. Modular Developer Source Tree
-The raw, transparent source codebase is exposed for immediate architectural inspection, modification, and security audits. Review the root directories for:
-* Core Python script execution layers (`narrate_web.py`)
-* Automation launcher and automated dependency environment scripts (`.bat`)
-* Clean open-source package configurations (`requirements.txt`)
+### 🚀 1. Standalone Windows Binary (.exe)
+
+[svg](https://github.com/krazyqueenie/narration-generator#-1-standalone-production-binary-exe)
+
+- **No Installer Required:** Download the executable and run it directly.
+- **Portable:** The application does not need to be formally installed on Windows.
+- **No Local Python Setup Required:** The standalone executable includes what it needs to run the application.
+- **Simple Removal:** If you no longer want the program, simply delete the executable.
+
+An active internet connection is still required when generating narration because voice generation uses an online text-to-speech service.
+
+### 📂 2. Developer Source Files
+
+[svg](https://github.com/krazyqueenie/narration-generator#-2-modular-developer-source-tree)
+
+The source code is included for transparency, inspection, learning, testing, and personal modification under the included project license.
+
+The source files include:
+
+- Core Python application logic (`narrate_web.py`)
+- Desktop launcher and setup scripts
+- Python dependency configuration (`requirements.txt`)
+- Project license
+- Third-party notices and acknowledgments
 
 ---
 
 ## ✨ Features & Core Capabilities
 
-* **🌐 Global Multi-Language System:** Built-in regional localization maps routing seamlessly to international character sets.
-* **🎛️ Dynamic Audio Customization:** Granular playback speed modifiers paired with a diverse matrix of premium natural voice profiles.
-* **📺 Real-Time Media Compartment:** Stateful inline audio player with an interactive timeline and volume handling for immediate preview loops.
-* **💾 Direct Local Export Engine:** Instant one-click compilation and download handlers for standard high-fidelity `.mp3` outputs.
-* **🔐 Offline Workspace Design:** Operates without account registration or telemetry collection—preserving script privacy.
+[svg](https://github.com/krazyqueenie/narration-generator#-features--core-capabilities)
+
+- **🌐 Multiple Languages & Regions:** Choose from supported languages and regional voice options.
+- **🎙️ Multiple Voice Profiles:** Browse available voices and experiment until you find the voice that fits your project.
+- **🎛️ Speed Controls:** Adjust narration speed before generating audio.
+- **📺 Built-In Audio Preview:** Listen to generated narration directly inside the application before saving it.
+- **💾 MP3 Export:** Save generated narration directly to your computer using the Windows Save As dialog.
+- **🖥️ Portable Windows Application:** Run the standalone executable without a traditional installer.
+- **👤 No Account Required:** The application does not require account registration or login.
+- **🧩 Simple Interface:** Designed around a straightforward workflow without unnecessary menus, dashboards, or setup steps.
 
 ---
 
-## 🖥️ Verified Performance & Hardware Benchmarks
+## 🖥️ Verified Performance & Hardware Test
 
-The core backend script does not impose an artificial ceiling on text length. To prove the speed and stability of this architecture on everyday consumer hardware, the engine was pushed through a long-form stress test.
+[svg](https://github.com/krazyqueenie/narration-generator#%EF%B8%8F-verified-performance--hardware-benchmarks)
 
-### 📋 Test System Configuration:
-* **Processor:** Intel Core i7-1255U (10 Cores / 12 Threads)
-* **Memory:** 16 GB RAM
-* **Storage Matrix:** High-Velocity NVMe SSD
-* **Operating System:** Windows 11 Architecture
+The Narration Generator itself does not impose a fixed text-length limit.
 
-### 📊 Long-Form Benchmark Results:
-* **Script Volume:** 18,644 characters (~3,700 words)
-* **Selected Voice Profile:** Brian — US Male Natural
-* **Speed Profile:** Baseline Normal (1.0x scaling)
-* **Output Audio Duration:** **21 minutes, 34 seconds** of continuous, unbroken narration
-* **Processing Render Time:** **~5 minutes** 
-* **Velocity Metrics:** Generates and encodes premium audio assets at roughly **5x faster than real-time playback**.
+Practical generation limits and processing times can vary depending on system resources, internet connection quality, selected voice, narration speed, and the underlying text-to-speech service.
 
-*Note: Execution times may scale dynamically depending on local system resource availability and network latency conditions.*
+The following test provides one real-world example of long-form performance.
+
+### 📋 Test System Configuration
+
+[svg](https://github.com/krazyqueenie/narration-generator#-test-system-configuration)
+
+- **Processor:** Intel Core i7-1255U (10 Cores / 12 Threads)
+- **Memory:** 16 GB RAM
+- **Storage:** NVMe SSD
+- **Operating System:** Windows 11
+
+### 📊 Long-Form Test Results
+
+[svg](https://github.com/krazyqueenie/narration-generator#-long-form-benchmark-results)
+
+- **Script Length:** 18,644 characters (~3,700 words)
+- **Selected Voice:** Brian — US male voice
+- **Speed:** Normal
+- **Output Audio Duration:** **21 minutes, 34 seconds**
+- **Generation Time:** Approximately **5 minutes**
+- **Approximate Processing Rate:** Around **4.3× faster than the finished narration's playback length**
+
+This was an informal real-world test rather than a controlled benchmark.
+
+Performance may be faster or slower on different systems or network connections.
 
 ---
 
-## 🛠️ Infrastructure Requirements & Dependencies
+## 🛠️ Requirements & Dependencies
 
-* **Network Dependency:** An active internet connection is mandatory during the generation window, as the local pipeline interfaces directly with online streaming text-to-speech services.
-* **Core Technology Integration:** This wrapper integrates multiple foundational platforms, including Python runtime scripting, the `pywebview` interface window library, and Edge Text-to-Speech framework layers.
+[svg](https://github.com/krazyqueenie/narration-generator#%EF%B8%8F-infrastructure-requirements--dependencies)
+
+- **Internet Connection:** An active internet connection is required during narration generation.
+- **Windows:** The standalone executable is packaged as a Windows desktop application.
+- **Source Version:** Running directly from source requires Python and the packages listed in `requirements.txt`.
+
+The project uses technologies including:
+
+- Python
+- pywebview
+- Edge TTS
+- Microsoft speech and voice technology
+
+---
+
+## ⚠️ Practical Limitations
+
+Very long scripts may take several minutes to generate.
+
+The application itself does not intentionally restrict narration length, but extremely large generations may ultimately be affected by:
+
+- Available system resources
+- Internet connection quality
+- Network interruptions
+- Voice service availability
+- Limits or behavior of the underlying text-to-speech service
+
+Generation speed may vary between computers and internet connections.
 
 ---
 
 ## 📜 Intellectual Property & Third-Party Notices
 
-This project is an open-source automation utility. The developer claims no ownership over underlying third-party technologies, libraries, Microsoft native voices, or associated trademarks. All core service components remain the strict property of their respective owners and are governed by their individual usage policies. 
+[svg](https://github.com/krazyqueenie/narration-generator#-intellectual-property--third-party-notices)
 
-Detailed library acknowledgments, dependencies licenses, and credit structures are explicitly indexed within the accompanying `THIRD_PARTY_NOTICES.md` file.
+This project is **source-available** under the included custom license.
+
+The developer does not claim ownership of Python, pywebview, Edge TTS, Microsoft voices, Microsoft speech technology, third-party libraries, services, trademarks, or other third-party technologies used by or accessed through the application.
+
+All third-party technologies, voices, libraries, services, and trademarks remain the property of their respective owners and are subject to their own licenses, policies, and terms.
+
+The project license applies only to the original application code, interface, scripts, documentation, project structure, and other original project material.
+
+See the accompanying `THIRD_PARTY_NOTICES.md` file for additional acknowledgments and information.
+
+---
 
 ## 💜 Acknowledgments
-A profound thank you to the global open-source developers, maintainers, and community contributors who build the critical underlying tech trees this application leverages to make digital audio creation accessible for creators everywhere.
+
+[svg](https://github.com/krazyqueenie/narration-generator#-acknowledgments)
+
+A sincere thank you to the developers, maintainers, contributors, and communities behind Python, pywebview, Edge TTS, Microsoft speech technologies, and the tools that make this project possible.
+
+The available voices and supporting technologies make it possible to create useful narration for educational videos, explainers, documentaries, mystery content, technology topics, science, space, and many other creative projects.
+
+This project exists because other developers created powerful tools, documented them, maintained them, and made it possible for others to build useful things with them.
 
 Thank you to everyone who created, documented, maintained, and improved the technologies this project depends on. 💜
 
+---
+
 ## License
+
+[svg](https://github.com/krazyqueenie/narration-generator#license)
 
 See the included license files for usage terms.
