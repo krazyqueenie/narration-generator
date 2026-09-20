@@ -137,6 +137,4 @@ Thank you to everyone who created, documented, maintained, and improved the tech
 
 ## License
 
-[svg](https://github.com/krazyqueenie/narration-generator#license)
-
 See the included license files for usage terms.
