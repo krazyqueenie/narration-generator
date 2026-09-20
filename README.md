@@ -135,6 +135,18 @@ Thank you to everyone who created, documented, maintained, and improved the tech
 
 ---
 
-## License
+## 📂 Source Files & Inspection (Transparent, Not Public Domain)
 
-See the included license files for usage terms.
+The raw source code is fully exposed inside this repository for transparency, security inspection, personal modification, and educational learning.
+
+**Usage Restrictions:**
+
+* **Transparency First:** You are encouraged to review the `.py` files to understand how the application works and inspect the source used to build the compiled executable.
+
+* **No Redistribution as Your Own Product:** You may not copy, repackage, rebrand, sell, redistribute, or publish this software, its source files, or compiled versions as your own standalone product.
+
+* **Personal Customization:** You are welcome to modify your own local copy for personal, educational, testing, or development use.
+
+* **Third-Party Technology:** These restrictions apply only to the original project material. Third-party libraries, voices, frameworks, and technologies remain subject to their own licenses and terms.
+
+See the included `LICENSE` file for the full usage terms.
