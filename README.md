@@ -1,7 +1,5 @@
 # 🎙️ Narration Generator
 
-[svg](https://github.com/krazyqueenie/narration-generator#%EF%B8%8F-narration-generator)
-
 A simple, portable Windows narration generator built for creators, developers, educators, and anyone who needs clean voice narration without a complicated workflow.
 
 Paste your text, select a language, regional voice, and speed, then generate, preview, and save your narration as an `.mp3` file.
@@ -12,13 +10,9 @@ No account or subscription is required to use the application.
 
 ## ⚡ Distribution Channels & Architecture
 
-[svg](https://github.com/krazyqueenie/narration-generator#-distribution-channels--architecture)
-
 The Narration Generator is provided in two forms: a ready-to-use Windows executable and a source-available developer version.
 
 ### 🚀 1. Standalone Windows Binary (.exe)
-
-[svg](https://github.com/krazyqueenie/narration-generator#-1-standalone-production-binary-exe)
 
 - **No Installer Required:** Download the executable and run it directly.
 - **Portable:** The application does not need to be formally installed on Windows.
@@ -28,8 +22,6 @@ The Narration Generator is provided in two forms: a ready-to-use Windows executa
 An active internet connection is still required when generating narration because voice generation uses an online text-to-speech service.
 
 ### 📂 2. Developer Source Files
-
-[svg](https://github.com/krazyqueenie/narration-generator#-2-modular-developer-source-tree)
 
 The source code is included for transparency, inspection, learning, testing, and personal modification under the included project license.
 
@@ -45,8 +37,6 @@ The source files include:
 
 ## ✨ Features & Core Capabilities
 
-[svg](https://github.com/krazyqueenie/narration-generator#-features--core-capabilities)
-
 - **🌐 Multiple Languages & Regions:** Choose from supported languages and regional voice options.
 - **🎙️ Multiple Voice Profiles:** Browse available voices and experiment until you find the voice that fits your project.
 - **🎛️ Speed Controls:** Adjust narration speed before generating audio.
@@ -60,8 +50,6 @@ The source files include:
 
 ## 🖥️ Verified Performance & Hardware Test
 
-[svg](https://github.com/krazyqueenie/narration-generator#%EF%B8%8F-verified-performance--hardware-benchmarks)
-
 The Narration Generator itself does not impose a fixed text-length limit.
 
 Practical generation limits and processing times can vary depending on system resources, internet connection quality, selected voice, narration speed, and the underlying text-to-speech service.
@@ -70,16 +58,12 @@ The following test provides one real-world example of long-form performance.
 
 ### 📋 Test System Configuration
 
-[svg](https://github.com/krazyqueenie/narration-generator#-test-system-configuration)
-
 - **Processor:** Intel Core i7-1255U (10 Cores / 12 Threads)
 - **Memory:** 16 GB RAM
 - **Storage:** NVMe SSD
 - **Operating System:** Windows 11
 
 ### 📊 Long-Form Test Results
-
-[svg](https://github.com/krazyqueenie/narration-generator#-long-form-benchmark-results)
 
 - **Script Length:** 18,644 characters (~3,700 words)
 - **Selected Voice:** Brian — US male voice
@@ -95,8 +79,6 @@ Performance may be faster or slower on different systems or network connections.
 ---
 
 ## 🛠️ Requirements & Dependencies
-
-[svg](https://github.com/krazyqueenie/narration-generator#%EF%B8%8F-infrastructure-requirements--dependencies)
 
 - **Internet Connection:** An active internet connection is required during narration generation.
 - **Windows:** The standalone executable is packaged as a Windows desktop application.
@@ -129,8 +111,6 @@ Generation speed may vary between computers and internet connections.
 
 ## 📜 Intellectual Property & Third-Party Notices
 
-[svg](https://github.com/krazyqueenie/narration-generator#-intellectual-property--third-party-notices)
-
 This project is **source-available** under the included custom license.
 
 The developer does not claim ownership of Python, pywebview, Edge TTS, Microsoft voices, Microsoft speech technology, third-party libraries, services, trademarks, or other third-party technologies used by or accessed through the application.
@@ -144,8 +124,6 @@ See the accompanying `THIRD_PARTY_NOTICES.md` file for additional acknowledgment
 ---
 
 ## 💜 Acknowledgments
-
-[svg](https://github.com/krazyqueenie/narration-generator#-acknowledgments)
 
 A sincere thank you to the developers, maintainers, contributors, and communities behind Python, pywebview, Edge TTS, Microsoft speech technologies, and the tools that make this project possible.
 
